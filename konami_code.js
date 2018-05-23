@@ -18,7 +18,7 @@ function init() {
     if (key === codes[index]) {
       index++;
       if (index === codes.length) {
-        alert("Cheat Code Enabled");
+        window.alert("Cheat Code Enabled");
         index = 0;
       }
     }
